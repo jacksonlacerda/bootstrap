@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+      <title>Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Requiring the file "estilo.css" -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Requiring the file "font-awesome.css" -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+
+        <div id="inicio" class="container">
+
+            <a class="navbar-brand h1 mb-0" href="#">Technology</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+                
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contatos</a>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                            Social
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Twitter</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <form class="form-inline">
+                    <input class="form-control ml-4 mr-2 mt-2 mt-md-0" type="search" placeholder="Buscar...">
+                    <button class="btn btn-dark mt-md-0 mt-3" type="Submit">OK</button>
+                </form>
+            </div>
+
+        </div>
+
+    </nav>
+    
+    
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselSite" data-slide-to="1"></li>
+            <li data-target="#carouselSite" data-slide-to="2"></li>
+        </ol>
+
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="imgs/slide-01.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Criação de Sites</h1>
+                    <p class="lead">O site é personalizado de acordo com sua necessidade, possuindo alta performance e design responsivo para a adaptação de dispositivos (celular, tablet, computador, etc).</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="imgs/slide-02.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                        <h1>Automatização de Tarefas</h1>
+                        <p class="lead">Automatização de serviços repetitivos no dia-a-dia, com execução de softwares e interfaces, trazendo mais assertividade, eficiência e controle aos processos.</p>
+                    </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="imgs/slide-03.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                        <h1>Desenvolvimento de Aplicativos</h1>
+                        <p class="lead">Atendemos as necessidades corporativas no desenvolvimento de aplicativos, seja no desenvolvimento nativo ou híbrido, para as plataformas iOS, Android e Windows Phone.</p>
+                    </div>
+            </div>    
+
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+
+        
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+
+    </div>
+    
+   
+    <div class="container">
+
+        <div class="row">
+            <div class="col-11 col-md-12 text-center ml-md-0 ml-2 my-5">
+
+                <h1 class="display-3"><i class="fas fa-desktop text-danger" aria-hidden="true"></i>
+                    Peça seu orçamento
+                </h1>
+
+                <p>Preços que cabem no seu bolso!!!</p>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+
+            <div class="col-sm-6 col-md-4 mb-3">
+
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+
+                    <nav class="nav nav-pills flex-column">
+
+                        <a class="nav-link" href="#item1">Planejamento</a>
+
+                        <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ml-4" href="#item1-1">Pesquisa</a>
+                                <a class="nav-link ml-4" href="#item1-2">Otimização</a>
+                        </nav>
+
+                        <a class="nav-link my-2" href="#item2">Agendamento</a>
+                        
+                        <a class="nav-link my-2" href="#item3">Pagamento</a>
+
+                        <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ml-4" href="#item3-1">Cartão de Crédito</a>
+                                <a class="nav-link ml-4" href="#item3-2">Boleto</a>
+                        </nav>
+
+                    </nav>
+
+                </nav>
+
+            </div>
+
+            <div class="col-sm-6 col-md-8">
+
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+
+                    <h4 id="item1">Planejamento</h4>
+                    <p>Utilizamos estratégias para organizar as idéias e colocar em prática.</p>
+
+                    <h5 id="item1-1">Pesquisa</h5>
+                    <p>Após reunião com o cliente, analisamos os melhores métodos para execução dos códigos.</p>
+
+                    <h5 id="item1-2">Otimização</h5>
+                    <p>Concluindo a avalição prévia, criamos os códigos baseado nas melhores tecnologias.</p>
+
+                    <h4 id="item2">Agendamento</h4>
+                    <p>Agende uma data com nossa agência para alinhar suas necessidades.</p>
+
+                    <h4 id="item3">Pagamento</h4>
+                    <p>Nossos termos são flexíveis, entre em contato conosco.</p>
+
+                    
+                    <h5 id="item3-1">Cartão de Crédito</h5>
+                    <p>Parcelamos em até 12x sem juros e aceitamos os principais cartões: Visa e Mastercard.</p>
+
+                    <h5 id="item3-2">Boleto</h5>
+                    <p>Possibilitamos 15% de desconto para pagamento à vista!</p>
+
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="servicos" class="row justify-content-sm-center">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card mb-5">
+                        <img class="card-img top" src="imgs/item-01.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Aplicativos</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Ideal para grandes plataformas</h6>   
+                            <p class="card-text">Nossos serviços:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">APP de forma hibrida ou nativa</li>
+                            <li class="list-group-item">IOS, Android e Windows Phone</li>
+                            <li class="list-group-item">Integração de sistemas e programação</li>
+                        </ul>
+                        <div class="card-body">     
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">
+                                Mais detalhes
+                            </a>
+                            <a href="/reservarLugares.html" class="card-link">Orçamento</a>             
+                        </div>
+                        <div class="card-footer text-muted">
+                            EAD, esportes e atividades físicas
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                        <div class="card mb-5">
+                            <img class="card-img top" src="imgs/item-02.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Sites</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Ideal para todas as empresas</h6>   
+                                <p class="card-text">Nossos serviços:</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Sites totalmente responsivos</li>
+                                <li class="list-group-item">Desenvolvemos logomarcas profissionais</li>
+                                <li class="list-group-item">Otimizado para os motores de busca</li>
+                            </ul>
+                            <div class="card-body">     
+                                <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">
+                                    Mais detalhes
+                                </a>
+                                <a href="/reservarLugares.html" class="card-link">Orçamento</a>             
+                            </div>
+                            <div class="card-footer text-muted">
+                                Sites, portais, fóruns e lojas virtuais 
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                        <div class="card mb-5">
+                            <img class="card-img top" src="imgs/item-03.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Automatização</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Ideal para tarefas do dia-a-dia</h6>   
+                                <p class="card-text">Nossos serviços:</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Robô para interagir com navegador</li>
+                                <li class="list-group-item">Software para interação no pacote office</li>
+                                <li class="list-group-item">Utilização de API</li>
+                            </ul>
+                            <div class="card-body">     
+                                <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">
+                                    Mais detalhes
+                                </a>
+                                <a href="/reservarLugares.html" class="card-link">Orçamento</a>             
+                            </div>
+                            <div class="card-footer text-muted">
+                                Pacote Office, navegador e base de dados 
+                            </div>
+                        </div>
+                </div>
+
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+
+        <div id="portfolio" class="container">
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4"><i class="fa fa-video-camera text-danger col-12 col-md-1" aria-hidden="true"></i>
+                        Portfólio
+                    </h1>
+
+                    <p class="lead mt-4 mt-md-0">
+                        Separamos para você alguns dos nossos trabalhos que criamos recentemente.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">
+                                Sites
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">
+                                Aplicativos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">
+                                Automatização
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content" id="nav-pills-content">
+                        <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" 
+                                            src="videos/site.mp4">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mt-4 mt-md-0">
+                                    <p>
+                                        Construímos sites com a tecnologia mais recente do mercado, 
+                                        criando uma versão para cada dispositivo: PC, Tablet e Smartphone.
+                                        <br><br>
+                                        Criamos todos os sites pensando nos critérios impostos pelo Google. 
+                                        Seu site já será entregue para você totalmente otimizado para os buscadores 
+                                        e você poderá ficar na 1ª página do Google e atrair milhares de visitantes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" 
+                                            src="videos/aplicativo.mp4">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-6 mt-4 mt-md-0">
+                                    <p>
+                                        Desenvolvemos aplicativos de sucesso para empresas e pessoas físicas, 
+                                        buscando sempre inovação e simplicidade, ajudando nossos clientes
+                                         a desenvolver ideias e construir grandes negócios.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" 
+                                            src="videos/automatizacao.mp4">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-6 mt-4 mt-md-0">
+                                    <p>
+                                        A automação de tarefas é considerada como uma etapa 
+                                        da melhoria da gestão de processos de negócios que tem 
+                                        o objetivo de identificar tarefas repetitivas. Ela as identifica 
+                                        e cria soluções, como softwares e aplicativos, para realizá-las 
+                                        sem a necessidade da intervenção humana.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Formulary -->
+    <div id="contato" class="container">
+
+        <div class="row">
+            <div class="col-md-12 col-10 text-center my-md-4 mb-4 mt-2 ml-4">
+                <h1 class="display-4"><i class="fas fa-envelope text-danger col-12 col-md-1" aria-hidden="true"></i>
+                    Entre em contato conosco
+                </h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-sm-12 col-md-10 col-lg-8">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label for="inputNome">Seu nome</label>
+                            <input type="text" class="form-control" id="inputNome" placeholder="Digite aqui seu nome">
+                        </div>
+                        <div class="form-group col-sm-6">
+                                <label for="inputSobrenome">Seu sobrenome</label>
+                                <input type="text" class="form-control" id="inputSobrenome" placeholder="Digite aqui sobrenome">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                                <label for="inputEnd">Seu endereço</label>
+                                <input type="text" class="form-control" id="inputEnd" placeholder="Digite aqui seu endereço completo">
+    
+                        </div>
+                    </div>    
+
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                                <label for="inputCidade">Sua cidade</label>
+                                <input type="text" class="form-control" id="inputCidade" placeholder="Digite aqui sua cidade">
+                        </div>
+                        <div class="form-group col-sm-4">
+                                <label for="inputEst">Seu estado</label>
+                                <select id="inputEst" class="form-control">
+                                    <option selected>Unidades federativas...</option>
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AM</option>
+                                    <option>AP</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MG</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>PR</option>
+                                    <option>RJ</option>
+                                    <option>RO</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>SC</option>
+                                    <option>SE</option>
+                                    <option>SP</option>
+                                    <option>TO</option>
+                                </select>
+                        </div>
+                        <div class="form-group col-sm-2">
+                                <label for="inputCEP">Seu CEP</label>
+                                <input type="text" class="form-control" id="inputCEP" placeholder="XXXXX-XXX">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox">Desejo receber novos roteiros no e-mail
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-danger">Enviar</button>
+                            <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus"
+                            title="Pintou alguma dúvida?!" data-content="Fale conosco: help@rotaryViagens.com">Ajuda</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    <!-- Footer-->
+    <div id="depoimentos" class="row">
+        <div class="col-sm-12 mb-3"><hr></div>
+        <div class="col-sm-4">
+            <h3 class="text-center">Contatos</h3>
+            <p class="text-center mt-md-5 mt-3"><i class="fa fa-phone text-danger" aria-hidden="true"></i>
+                (11) 2365 3678
+            </p>
+            <p class="text-center mt-md-2 mt-3"><i class="fa fa-mobile-phone text-danger" aria-hidden="true"></i>
+                Whatsapp  
+            </p>
+            <p class="text-center"><i class="fa fa-envelope text-danger" aria-hidden="true"></i>
+                contato@technology.com.br
+            </p>
+        </div>
+
+        <div class="col-sm-4">
+                <h3 class="text-center">Menu</h3>
+                <div class="list-group text-center">
+                    <a href="#inicio" class="list-group-item list-group-item-action list-group-item-danger">
+                        Início
+                    </a>
+                    <a href="#servicos" class="list-group-item list-group-item-action list-group-item-danger">
+                        Serviços
+                    </a>
+                    <a href="#portfolio" class="list-group-item list-group-item-action list-group-item-danger">
+                        Portfólio
+                    </a>
+                    <a href="#contato" class="list-group-item list-group-item-action list-group-item-danger">
+                        Contatos
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-4 mt-md-0 mt-4">
+                    <h3 class="text-center">Social</h3>
+                    <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                        <a class="btn btn-outline-primary" href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                        <a class="btn btn-outline-info" href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                        <a class="btn btn-outline-warning" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                    </div>            
+            </div>
+
+            
+        </div>
+    </div>
+        <div class="col-12 mt-5 bg-danger pb-2">
+                <hr>
+                <blockquote class="blockquote text-center text-light">
+                    <p class="mb-0"><em>"Empresa séria, comprometida com seus clientes, preço justo e entrega no prazo!"</p>
+                    <footer class="blockquote-footer text-white">Anônimo, <cite tittle="titulo">Depoimento</cite></footer>
+                </blockquote>
+        </div>
+    </div>
+
+    <!-- jQuery,Popper.js, then Bootstrap JS ... all called from our source/-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+  </body>
+</html>
