@@ -1,11 +1,15 @@
-<a align="center" href="https://jacksonlacerda.github.io/bootstrap/">
-  Link do Projeto
-</a>
+<h1 align="center">
+  Technology - Bootstrap ( 
+    <a align="center" href="https://jacksonlacerda.github.io/bootstrap/">
+      Link do Projeto
+    </a>
+  )
+</h1>
 
 <br>
 
 <p align="center">
-  <img alt="Frontend" src=".github/bootstrap.png" width="100%">
+  <img alt="Frontend" src=".github/bootstrap.png" width="90%">
 </p>
 
 ## Tecnologias
@@ -21,12 +25,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto é um site institucional de uma empresa TI prestadora de serviços que cria aplicativos, sites e automatiza tarefas para os seus clientes.
 
-## Commit Semânticos
+## Commits Semânticos
 
-feat: Adições ao código ou novas funcionalidades.
-refactor: Edições do código que não alterem sua funcionalidade.
-fix: Correção de bugs.
-style: Alteração em estilos.
-test: Criação de testes da sua aplicação.
-build: Modificação em arquivos de build.
+- `feat`: Adições ao código ou novas funcionalidades.
+- `refactor`: Edições do código que não alterem sua funcionalidade.
+- `fix`: Correção de bugs.
+- `style`: Alteração em estilos.
+- `test`: Criação de testes da sua aplicação.
+- `build`: Modificação em arquivos de build.
 
